@@ -100,8 +100,8 @@ export default function Footer() {
           <ul className="space-y-2">
             {[["Home", "/", <FaHome />],
               ["About Us", "/about", <FaInfoCircle />],
-              ["Showcase", "/showcase", <FaImage />],
-              ["Certificates", "/certificates", <FaCertificate />],
+              ["Showcase", "/gallery", <FaImage />],
+              ["Certificates", "/certificate", <FaCertificate />],
               ["Contact Us", "/contact", <FaPhoneAlt />]
             ].map(([text, link, icon], i) => (
               <li key={i}>
