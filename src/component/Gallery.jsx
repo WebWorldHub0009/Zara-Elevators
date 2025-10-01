@@ -1,9 +1,12 @@
 import React from 'react'
+import GalleryHero from './GalleryComponent/GalleryHero'
+import GallerySection from './GalleryComponent/GallerySection'
 
 function Gallery() {
   return (
     <div>
-      <h1>my gallery</h1>
+      <GalleryHero/>
+      <GallerySection/>
     </div>
   )
 }

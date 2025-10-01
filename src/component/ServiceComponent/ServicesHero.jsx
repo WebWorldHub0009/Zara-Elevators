@@ -44,7 +44,7 @@ const ServicesHero = () => {
             <p className="text-lg text-[#4B5563] mb-6 leading-relaxed">
               At{" "}
               <span className="text-[#EA630B] font-semibold">
-                Liftium Elevators
+                Zara Elevators
               </span>
               , we design innovative, safe, and reliable lift solutions that
               redefine modern living and working spaces with excellence.

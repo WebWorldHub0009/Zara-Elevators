@@ -1,9 +1,14 @@
 import React from 'react'
+import CertificateHero from './CertificateComponent/CertificateHero'
+import DocumentSection from './CertificateComponent/DocumentSection'
+import Testimonials from './CertificateComponent/Testimonials'
 
 function Certificate() {
   return (
     <div>
-      <h1>Certificate</h1>
+      <CertificateHero/>
+      <DocumentSection/>
+      <Testimonials/>
     </div>
   )
 }

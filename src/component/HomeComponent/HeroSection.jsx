@@ -35,11 +35,15 @@ export default function HeroSection() {
 
   return (
     <section className="relative w-full text-black px-6 md:px-12 lg:px-20 py-16 z-0 overflow-hidden">
-      {/* Background image */}
-      <div
-        className="absolute inset-0 z-[-1] bg-cover bg-center opacity-20"
-        style={{ backgroundImage: `url(${bgHero})` }}
-      ></div>
+  {/* Background image */}
+  <div
+    className="absolute inset-0 z-[-2] bg-cover bg-center"
+    style={{ backgroundImage: `url(${bgHero})` }}
+  ></div>
+
+  {/* Gradient overlay on top of bg image */}
+  <div className="absolute inset-0 z-[-1] bg-gradient-to-r from-[#E29E02]/10 via-[#EA630B]/60 to-[#E29E02]/70"></div>
+
 
       <div className="relative max-w-7xl mx-auto flex flex-col lg:flex-row items-stretch gap-10 min-h-[64vh]">
         {/* LEFT: Text */}
