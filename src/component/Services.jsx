@@ -1,9 +1,12 @@
 import React from 'react'
+import HeroServices from './ServiceComponent/HeroServices'
+import ServicesSection from './ServiceComponent/ServicesSection'
 
 function Services() {
   return (
     <div>
-      <h1>my services</h1>
+      <HeroServices/>
+      <ServicesSection/>
     </div>
   )
 }
