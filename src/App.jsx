@@ -11,6 +11,7 @@ import Contact from './component/Contact'
 import Certificate from './component/Certificate'
 import ServiceDetail from './component/ServiceComponent/ServiceDetail'
 import ScrollToTop from './component/ScrollToTop'
+import FloatingButtons from './component/FloatingButtons'
 
 
 
@@ -20,6 +21,7 @@ function App() {
   return (
     <>
     <ScrollToTop/>
+    <FloatingButtons/>
       <ModernNavbar/>
     <Routes>
          {/* <Route element={<Layout />}>  */}
