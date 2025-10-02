@@ -2,40 +2,86 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const services = [
-  { id: 1, title: "PVC WALL PANEL", desc: "Durable, stylish wall panels that enhance interiors.", img: "/images/High Quality Factory Direct Waterproof Interior….jpeg" },
-  { id: 2, title: "CEILING PANEL", desc: "Premium ceiling panels for elegant spaces.", img: "/images/1dfbdb8e-17c6-41a5-863b-9f677d7e9313.jpeg" },
-  { id: 3, title: "CHARCOL PANEL", desc: "Modern panels for bold and unique wall designs.", img: "/images/Panel Size _ 1ft x 9_5ft , New Star Pattern, The….jpeg" },
-  { id: 4, title: "WPC LOUVERS", desc: "Weather-resistant louvers for both indoor and outdoor.", img: "/images/Cheap Wall Cladding Pvc Wpc House Hight Quality….jpeg" },
-  { id: 5, title: "FLUTED PANEL", desc: "Fluted panels for modern textures and finishes.", img: "/images/What is the Advantages of WPC materials for FLUTED….jpeg" },
-  { id: 6, title: "PVC DOOR", desc: "High-quality PVC doors with long-lasting durability.", img: "/images/中国工厂预挂设计实心芯板现代内饰木门 - Buy Door,Wood Door,China Wood….jpeg" },
-  { id: 7, title: "UV MARBLE SHEET", desc: "Marble-look UV sheets for premium interiors.", img: "/images/Waterproof Seamless Flexible Plastic Wall Panel….jpeg" },
-  { id: 8, title: "WALL PAPER", desc: "Stylish wallpapers to add character to your walls.", img: "/images/Love art deco_ Take a look at this custom-made….jpeg" },
-  { id: 9, title: "Kitchen Design Wall", desc: "Creative designs to make your kitchen stand out.", img: "/images/Thrilled to announce my first NFT collection “The….jpeg" },
+  {
+    id: 1,
+    title: "Traction Machine Room Elevator ",
+    desc: "Traction Machine Room Elevators are advanced vertical transportation systems...",
+    img: "src/assets/images/services/sc1/sc1logo.jpeg",
+  },
+  {
+    id: 2,
+    title: "Home Elevator",
+    desc: "Home Elevators are designed to bring convenience, safety,and...",
+    img: "src/assets/images/services/sc2/sc2logo.jpeg",
+  },
+  {
+    id: 3,
+    title: "MRL Gealess Elevator",
+    desc: "MRL (Machine Room-Less) Gealess Elevators are advanced vertical transportation...",
+    img: "src/assets/images/services/sc3/sc3logo.jpeg",
+  },
+  {
+    id: 4,
+    title: "Hospital Elevator",
+    desc: "Hospital Elevators are specialized vertical transportation systems...",
+    img: "src/assets/images/services/sc4/sc4logo.jpeg",
+  },
+  {
+    id: 5,
+    title: "Goods Elevator",
+    desc: "Goods Elevators are robust vertical transport systems designed specifically...",
+    img: "src/assets/images/services/sc5/sc5logo.jpeg",
+  },
+  {
+    id: 6,
+    title: "Copasule Elevator",
+    desc: "QCopasule Elevators are compact, efficient vertical transport solutions...",
+    img: "src/assets/images/services/sc6/sc6logo.jpeg",
+  },
+  {
+    id: 7,
+    title: "Parking Elevator",
+    desc: "Parking Elevators are innovative vertical transport systems...",
+    img: "src/assets/images/services/sc7/sc7logo.jpeg",
+  },
+  {
+    id: 8,
+    title: "Hydroulic Elevator",
+    desc: "Hydraulic Elevators are advanced vertical transport systems...",
+    img: "src/assets/images/services/sc8/sc8logo.jpeg",
+  },
+  {
+    id: 9,
+    title: "Parts And Machines",
+    desc: "Elevator Parts and Machines comprise the essential components...",
+    img: "src/assets/images/services/sc9/sc9logo.jpeg",
+  },
 ];
 
 export default function ServicesSection() {
   return (
     <section
-      className="py-16 bg-fixed bg-center bg-cover relative"
+      className="py-16 bg-gradient-to-b from-[#EA630B] to-[#E29E02] relative"
       id="services"
-      style={{
-        backgroundImage:
-          "url('/images/2b82bf4c-17c6-4a89-9b72-77bd13ac9a85.jpeg')",
-      }}
     >
       {/* Overlay */}
-      <div className="absolute inset-0 bg-[#171512]/90"></div>
+      <div className="absolute inset-0 bg-[#EA630B]/10"></div>
 
       <div className="relative max-w-6xl mx-auto px-4">
-        <h2 className="text-3xl font-bold text-center mb-12 text-[#D99021]">
-          Our Services
+        <h2 className="text-3xl font-bold text-center mb-12 text-[#ffffff]">
+          Our Elevator Services
+        </h2>
+        <h2 className="text-3xl font-bold text-center mb-12 text-[#E29E02]">
+          We at Zara Elevators Services offer <span className="text-[#E29E02]">following type of elevator</span> 
         </h2>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {services.map((service) => (
             <div
               key={service.id}
-              className="bg-white rounded-2xl shadow-lg overflow-hidden transform hover:-translate-y-2 hover:shadow-2xl transition duration-500 group hover:bg-[#fffedd]"
+              className="bg-white rounded-2xl shadow-lg overflow-hidden transform 
+                         hover:-translate-y-2 hover:shadow-[0_0_25px_rgba(234,99,11,0.5)] 
+                         transition duration-500 group"
             >
               {/* Image */}
               <img
@@ -46,16 +92,18 @@ export default function ServicesSection() {
 
               {/* Content */}
               <div className="p-6 text-center">
-                <h3 className="text-xl font-bold text-[#171512] group-hover:text-[#D99021] transition duration-300">
+                <h3 className="text-xl font-bold text-[#EA630B] group-hover:text-[#E29E02] transition duration-300">
                   {service.title}
                 </h3>
-                <p className="text-gray-600 text-sm mt-2 mb-4">
+                <p className="text-gray-700 text-sm mt-2 mb-4">
                   {service.desc}
                 </p>
 
                 <Link
                   to={`/services/${service.id}`}
-                  className="inline-block px-5 py-2 bg-[#D99021] text-[#171512] font-semibold rounded-md opacity-90 hover:opacity-100 transition duration-300 hover:bg-[#ffac30] hover:text-[#fff1dc]"
+                  className="inline-block px-5 py-2 bg-[#EA630B] text-white font-semibold rounded-md 
+                             opacity-90 hover:opacity-100 hover:bg-[#E29E02] hover:text-[#171512] 
+                             transition duration-300 transform hover:scale-105"
                 >
                   Learn More
                 </Link>
