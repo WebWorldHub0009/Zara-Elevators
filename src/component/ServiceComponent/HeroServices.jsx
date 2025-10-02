@@ -2,13 +2,16 @@ import React from "react";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 
+import sh1 from "../../assets/images/services/sh1.jpeg";
+
+
 const HeroServices = () => {
   return (
     <section
       className="relative w-full min-h-screen flex items-center justify-center bg-cover bg-center"
       style={{
         backgroundImage:
-          "url('src/assets/images/services/sh1.jpeg')",
+          `url(${sh1})`,
       }}
     >
       {/* Overlay */}
@@ -46,7 +49,7 @@ const HeroServices = () => {
           className="flex flex-col md:flex-row gap-4 justify-center"
         >
           <a href="#services">
-            <button className="px-6 py-3 rounded-full bg-[#EA630B] text-white font-semibold shadow-md
+            <button className="px-6 py-3 cursor-pointer rounded-full bg-[#EA630B] text-white font-semibold shadow-md
                                hover:bg-[#E29E02] hover:text-gray-900 transition transform hover:scale-105">
               Learn More
             </button>
@@ -54,7 +57,7 @@ const HeroServices = () => {
           <Link to="/gallery">
             <button className="px-6 py-3 rounded-full bg-transparent border-2 border-[#E29E02] 
                                text-[#E29E02] font-semibold shadow-md 
-                               hover:bg-[#E29E02] hover:text-gray-900 transition transform hover:scale-105">
+                               hover:bg-[#E29E02] hover:text-gray-900 cursor-pointer transition transform hover:scale-105">
               Our Gallery
             </button>
           </Link>

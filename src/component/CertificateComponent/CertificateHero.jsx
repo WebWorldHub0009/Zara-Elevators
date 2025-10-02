@@ -60,13 +60,13 @@ export default function CertificateHero() {
         </motion.p>
 
         <div className="flex flex-wrap gap-4 justify-center">
-          <Link to="/certificates">
-            <button className="bg-[#E29E02] hover:bg-[#EA630B] text-black font-semibold px-6 py-3 rounded-lg shadow-lg transition duration-300">
-              Learn More
+          <Link to="/gallery">
+            <button className="bg-[#E29E02] hover:bg-[#EA630B] text-black font-semibold px-6 py-3 rounded-lg shadow-lg transition duration-300 cursor-pointer">
+              show gallery
             </button>
           </Link>
           <Link to="/contact">
-            <button className="border-2 border-[#E29E02] hover:border-[#EA630B] hover:bg-[#EA630B] hover:text-white text-[#E29E02] font-semibold px-6 py-3 rounded-lg shadow-lg transition duration-300">
+            <button className="border-2 cursor-pointer border-[#E29E02] hover:border-[#EA630B] hover:bg-[#EA630B] hover:text-white text-[#E29E02] font-semibold px-6 py-3 rounded-lg shadow-lg transition duration-300">
               Contact Us
             </button>
           </Link>

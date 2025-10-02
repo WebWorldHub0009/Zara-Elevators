@@ -3,18 +3,23 @@ import React from "react";
 import { FaEye, FaDownload, FaFilePdf } from "react-icons/fa";
 import { motion } from "framer-motion";
 
+
+import cert1 from "../../assets/certificates/11zon_JPEG-to-PDF (82).pdf";
+// import cert2 from "../../assets/certificates/11zon_JPEG-to-PDF (83).pdf";
+
 const documents = [
   {
     title: "Safety Certification",
     description: "Certified for highest safety standards in elevators and lifts.",
-    pdf: "/pdfs/safety-cert.pdf",
+    pdf: cert1,
   },
   {
     title: "Quality Assurance Report",
     description: "Detailed report on quality and performance of our elevators.",
-    pdf: "/pdfs/quality-report.pdf",
+    pdf: cert1,
   },
 ];
+
 
 export default function DocumentSection() {
   return (

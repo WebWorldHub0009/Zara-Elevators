@@ -10,6 +10,7 @@ import Gallery from './component/Gallery'
 import Contact from './component/Contact'
 import Certificate from './component/Certificate'
 import ServiceDetail from './component/ServiceComponent/ServiceDetail'
+import ScrollToTop from './component/ScrollToTop'
 
 
 
@@ -18,6 +19,7 @@ function App() {
 
   return (
     <>
+    <ScrollToTop/>
       <ModernNavbar/>
     <Routes>
          {/* <Route element={<Layout />}>  */}
