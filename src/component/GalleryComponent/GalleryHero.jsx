@@ -27,9 +27,9 @@ export default function GalleryHero() {
         </p>
 
         <div className="flex flex-wrap justify-center gap-4">
-          <Link to="/learn-more">
+          <Link to="/contact">
             <button className="bg-[#E29E02] hover:bg-[#EA630B] text-black font-semibold px-6 py-3 rounded-lg shadow-md transition transform hover:scale-105">
-              Learn More
+              Contact Us
             </button>
           </Link>
 

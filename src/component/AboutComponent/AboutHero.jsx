@@ -43,14 +43,14 @@ export default function AboutHero() {
         {/* Buttons */}
         <div className="flex flex-wrap gap-4 mt-4">
           <Link to="/services">
-            <button className="bg-[#E29E02] hover:bg-[#EA630B] text-black font-semibold px-6 py-3 rounded-lg shadow-lg transition duration-300">
-              Learn More
+            <button className="bg-[#E29E02] hover:bg-[#EA630B] text-black font-semibold px-6 py-3 rounded-lg shadow-lg transition duration-300 cursor-pointer">
+              Our Services
             </button>
           </Link>
 
           <Link to="/contact">
-            <button className="bg-transparent border-2 border-[#E29E02] hover:bg-[#EA630B] hover:text-white text-[#E29E02] font-semibold px-6 py-3 rounded-lg shadow-lg transition duration-300">
-              Contact
+            <button className="bg-transparent border-2 border-[#E29E02] hover:bg-[#EA630B] hover:text-white text-[#E29E02] font-semibold px-6 py-3 rounded-lg shadow-lg transition duration-300 cursor-pointer">
+              Contact Us
             </button>
           </Link>
         </div>

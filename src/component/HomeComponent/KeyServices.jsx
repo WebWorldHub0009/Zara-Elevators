@@ -83,7 +83,7 @@ const KeyServices = () => {
             <motion.button
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              className="px-8 py-4 bg-gradient-to-r from-[#E29E02] to-[#EA630B] text-white font-semibold rounded-full shadow-lg transition duration-300 hover:shadow-[0_0_20px_rgba(234,99,11,0.5)]"
+              className="px-8 py-4 bg-gradient-to-r from-[#E29E02] to-[#EA630B] text-white font-semibold rounded-full shadow-lg transition cursor-pointer duration-300 hover:shadow-[0_0_20px_rgba(234,99,11,0.5)]"
             >
               EXPLORE SERVICES
             </motion.button>

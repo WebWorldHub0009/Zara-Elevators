@@ -85,7 +85,7 @@ const ServicesHero = () => {
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                className="relative px-10 py-4 bg-gradient-to-r from-[#E29E02] to-[#EA630B] text-white rounded-full shadow-lg font-semibold transition duration-300 hover:shadow-[0_0_20px_rgba(226,158,2,0.6)]"
+                className="relative px-10 py-4 bg-gradient-to-r from-[#E29E02] to-[#EA630B] text-white rounded-full shadow-lg cursor-pointer font-semibold transition duration-300 hover:shadow-[0_0_20px_rgba(226,158,2,0.6)]"
               >
                 GET A FREE QUOTE
               </motion.button>

@@ -20,6 +20,8 @@ import {
   FaUserCog,
   FaAngleDoubleUp,
   FaLayerGroup,
+  FaServer,
+  FaHospital,
 } from "react-icons/fa";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
@@ -36,14 +38,15 @@ const containerVariants = {
 
 // Services
 const servicesData = [
-  { name: "Passenger Elevators", path: "/services/passenger-elevators", icon: FaBuilding },
-  { name: "Home Elevators", path: "/services/home-elevators", icon: FaHome },
-  { name: "Hospital Elevators", path: "/services/hospital-elevators", icon: FaUserCog },
-  { name: "Goods/Freight Elevators", path: "/services/goods-elevators", icon: FaTruckMoving },
-  { name: "Capsule Elevators", path: "/services/capsule-elevators", icon: FaLayerGroup },
-  { name: "Hydraulic Elevators", path: "/services/hydraulic-elevators", icon: FaCogs },
-  { name: "Escalators", path: "/services/escalators", icon: FaAngleDoubleUp },
-  { name: "Maintenance & AMC", path: "/services/maintenance", icon: FaTools },
+  { name: "Traction Machine Room Elevator", path: "/services/1", icon: FaBuilding },
+  { name: "Home Elevator", path: "/services/2", icon: FaHome },
+  { name: "MRL Gealess Elevator", path: "/services/3", icon: FaUserCog },
+  { name: "Hospital Elevator", path: "/services/4", icon: FaHospital },
+  { name: "Goods Elevator", path: "/services/5", icon: FaLayerGroup },
+  { name: "Copasule Elevator", path: "/services/6", icon: FaCogs },
+  { name: "Parking Elevator", path: "/services/7", icon: FaAngleDoubleUp },
+  { name: "Hydroulic Elevator", path: "/services/8", icon: FaTools },
+  { name: "Parts And Machines", path: "/services/9", icon: FaServer },
 ];
 
 export default function Footer() {
@@ -76,19 +79,15 @@ export default function Footer() {
         {/* About */}
         <div className="flex flex-col space-y-3">
           <h4 className="font-bold mb-2 text-3xl text-white font-[italiana]">
-            About Liftium Elevators
+            About Zara Elevators
           </h4>
           <p className="leading-relaxed text-white/90">
-            Liftium Elevators is a trusted name in the elevator and escalator
-            industry, providing innovative and safe vertical mobility solutions.
-            We specialize in customized lifts, escalators, and maintenance
-            services, ensuring comfort, safety, and reliability for residential,
-            commercial, and industrial needs.
+            Providing reliable, safe, and modern elevator solutions with a focus on quality service and customer satisfaction. Trusted name in elevator installation, maintenance, and modernization. Delivering comfort, safety, and innovation for every building.
           </p>
           <div className="mt-4 space-y-1 text-xs text-white/80">
-            <p>UDYAM-UP-02-0092776</p>
-            <p>GSTIN/UIN: 09KVLPK8565A1Z1</p>
-            <p>NCS ID: E20H84-2200407050875</p>
+            <p>UDYAM-UP-02-0002982</p>
+            <p>GSTIN/UIN: 09AMMPH5998N1ZX</p>
+            {/* <p>NCS ID: E20H84-2200407050875</p> */}
           </div>
         </div>
 
@@ -100,7 +99,7 @@ export default function Footer() {
           <ul className="space-y-2">
             {[["Home", "/", <FaHome />],
               ["About Us", "/about", <FaInfoCircle />],
-              ["Showcase", "/gallery", <FaImage />],
+              ["Gallery", "/gallery", <FaImage />],
               ["Certificates", "/certificate", <FaCertificate />],
               ["Contact Us", "/contact", <FaPhoneAlt />]
             ].map(([text, link, icon], i) => (
@@ -119,7 +118,7 @@ export default function Footer() {
             Email
           </h4>
           <ul className="mt-2 space-y-2">
-            {["Info@liftiumelevators.in", "liftiumelevators@gmail.com"].map((email, i) => (
+            {["www.zaraelevatorsservices.com", "zara.elevatorsmaintenance@gmail.com"].map((email, i) => (
               <li key={i}>
                 <a
                   href={`mailto:${email}`}
@@ -158,19 +157,23 @@ export default function Footer() {
             Contact Info
           </h4>
           <address className="not-italic leading-relaxed mb-4 text-white/90">
-            <strong>Address 1:</strong>
+            <strong>Reg Office:</strong>
             <br />
-            Bismillah Colony Manjoor Gadi, Aligarh Bypass Road,
+            13/290, Mamu Bhanja,
             <br />
             Aligarh, Uttar Pradesh, 202001
-            <br /><br />
-            <strong>Address 2:</strong>
             <br />
-            Shop No.01 Ground, near Hindu Temple, ITI Rd,
+            <strong>Head Office:</strong>
             <br />
-            Mustak Nagar, Industrial Estate, Aligarh,
+            M72, Room No.4,
             <br />
-            Uttar Pradesh, 202001
+            Lado Sarai, New Delhi,110030.
+            <br />
+            <strong>Address:</strong>
+            <br />
+            Mamu Bhanja, Old City, Near Agfa Tailor,
+            <br />
+            Mamu Bhanja, Alighar Utter Pradesh 202001
           </address>
 
           <div className="mb-4 flex">
@@ -199,7 +202,7 @@ export default function Footer() {
       {/* Bottom */}
       <div className="mt-8 text-center text-xs border-t border-white/40 pt-4 space-y-2 relative z-10 text-white/90">
         <VisitorCounter />
-        <p>© {new Date().getFullYear()} Liftium Elevators. All rights reserved.</p>
+        <p>© {new Date().getFullYear()} Zara Elevators. All rights reserved.</p>
         <p>
           Designed by{" "}
           <a

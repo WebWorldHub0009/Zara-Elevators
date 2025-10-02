@@ -93,11 +93,11 @@ export default function StatsSection() {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.8 }}
           >
-            <Link to="/showcase">
+            <Link to="/gallery">
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                className="cursor-pointer bg-gradient-to-r from-[#E29E02] to-[#EA630B] text-white px-8 py-4 rounded-full shadow-lg hover:opacity-90 transition font-semibold"
+                className="cursor-pointer bg-gradient-to-r from-[#E29E02] to-[#EA630B] text-white px-8 py-4 rounded-full shadow-lg  hover:opacity-90 transition font-semibold"
               >
                 Explore Our Work
               </motion.button>

@@ -31,7 +31,7 @@ export default function AboutSection() {
           </p>
 
           <Link to="/about">
-            <button className="bg-[#E29E02] hover:bg-[#EA630B] text-black font-semibold px-8 py-3 rounded-full shadow-lg transition transform hover:scale-105 mb-8">
+            <button className="bg-[#E29E02] hover:bg-[#EA630B] text-black font-semibold px-8 py-3 rounded-full shadow-lg transition transform hover:scale-105 mb-8 cursor-pointer">
               Learn More
             </button>
           </Link>

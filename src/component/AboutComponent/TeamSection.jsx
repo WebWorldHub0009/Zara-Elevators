@@ -5,16 +5,17 @@ import { motion } from "framer-motion";
 
 // Dummy data for team members
 const teamMembers = [
-  { name: "Rohit Sharma", role: "CEO", info: "Leading Zara Elevators with vision and innovation." },
-  { name: "Ayesha Khan", role: "CTO", info: "Driving technological advancements in elevator systems." },
-  { name: "Vikram Patel", role: "Senior Engineer", info: "Ensuring safety and precision in elevator design." },
-  { name: "Fatima Ansari", role: "Marketing Head", info: "Expanding brand presence and client engagement." },
-  { name: "Sandeep Mehta", role: "Project Manager", info: "Efficiently handling projects and timelines." },
-  { name: "Neha Verma", role: "Designer", info: "Crafting modern and ergonomic elevator designs." },
-  { name: "Mohammed Imran", role: "Maintenance Lead", info: "Overseeing maintenance and smooth operations." },
-  { name: "Priya Singh", role: "HR Manager", info: "Building a motivated and skilled workforce." },
-  { name: "Arjun Malik", role: "Customer Support", info: "Providing top-notch assistance to clients." },
-  { name: "Zoya Sheikh", role: "Finance Head", info: "Managing financial resources efficiently." },
+  { name: "MR. Imran Husain", role: "C.E.O", info: "is dedicated to delivering safe, reliable, and innovative elevator solutions while ensuring customer satisfaction and long-term trust." },
+  { name: "Mr. Anuj Saxena", role: "Head of Purchase", info: " at Zara Elevators, ensures the sourcing of high-quality materials and parts, maintaining efficiency, safety, and cost-effectiveness in every project." },
+  { name: "Mr. Govind Arora", role: "Technical Head (Installation & Repair)", info: " at Zara Elevators, leads the team in delivering safe, efficient, and precise elevator installations and reliable repair services." },
+  { name: "Mr. Ankit Mishra", role: "Technical Head (Quality & Customer Relations", info: " at Zara Elevators, ensures top-notch quality standards and builds lasting trust through excellent customer support." },
+  { name: "Shadab Husain", role: "Project Manager", info: " at Zara Elevators, oversees projects from planning to completion, ensuring timely delivery, safety, and customer satisfaction." },
+  // { name: "Sandeep Mehta", role: "Project Manager", info: "Efficiently handling projects and timelines." },
+  // { name: "Neha Verma", role: "Designer", info: "Crafting modern and ergonomic elevator designs." },
+  // { name: "Mohammed Imran", role: "Maintenance Lead", info: "Overseeing maintenance and smooth operations." },
+  // { name: "Priya Singh", role: "HR Manager", info: "Building a motivated and skilled workforce." },
+  // { name: "Arjun Malik", role: "Customer Support", info: "Providing top-notch assistance to clients." },
+  // { name: "Zoya Sheikh", role: "Finance Head", info: "Managing financial resources efficiently." },
 ];
 
 

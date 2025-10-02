@@ -67,26 +67,26 @@ const ContactPage = () => {
 
           {/* Contact Details */}
           <a
-            href="tel:+91781955700"
+            href="tel:+918279812942"
             className="flex items-center gap-4 mb-4 hover:scale-105 transition text-[#E29E02] hover:text-[#EA630B]"
           >
             <FaPhoneAlt className="text-[#E29E02] text-2xl" />
-            <span>+91 781955700</span>
+            <span>+91 8279812942</span>
           </a>
           <a
-            href="tel:+919259648796"
+            href="tel:+917466891325"
             className="flex items-center gap-4 mb-4 hover:scale-105 transition text-[#E29E02] hover:text-[#EA630B]"
           >
             <FaPhoneAlt className="text-[#E29E02] text-2xl" />
-            <span>+91 9259648796</span>
+            <span>+91 7466891325</span>
           </a>
 
           <a
-            href="mailto:info@zaraelevators.com"
+            href="mailto:zara.elevatorsmaintenance@gamil.com"
             className="flex items-center gap-4 mb-4 hover:scale-105 text-[#E29E02] transition hover:text-[#EA630B]"
           >
             <FaEnvelope className="text-[#E29E02] text-2xl hover:text-[#EA630B]" />
-            <span>info@zaraelevators.com</span>
+            <span>zara.elevatorsmaintenance@gamil.com</span>
           </a>
 
           <a
@@ -97,8 +97,7 @@ const ContactPage = () => {
           >
             <FaMapMarkerAlt className="text-[#E29E02] text-2xl hover:text-[#EA630B]" />
             <span>
-              Plot No. 4/1126, Ground Floor, Hamdard Nagar B, Jamalpur, Aligarh
-              Bypass Road, Opposite Dipti Hospital, Uttar Pradesh 202001
+              Mamu Bhanja, Old City, Near Agfa Tailor, Mamu Bhanha Alighar, Uttar Pradesh 202001
             </span>
           </a>
 

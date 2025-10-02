@@ -154,7 +154,7 @@ export default function HeroSection() {
                 <p className="text-xs text-black/70">Reliable & Modern</p>
               </div>
             </div>
-            <Link to='/showcase'>
+            <Link to='/gallery'>
               <button className="cursor-pointer bg-[#E29E02] hover:bg-[#EA630B] text-black px-3 py-2 rounded-md text-sm transition">
                 Explore
               </button>

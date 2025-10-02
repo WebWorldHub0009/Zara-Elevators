@@ -36,7 +36,7 @@ export default function GallerySection() {
   const [modalIndex, setModalIndex] = useState(null);
 
   return (
-    <section className="py-20 px-6 md:px-12 lg:px-20 bg-gradient-to-r from-[#E29E02]/20 via-[#EA630B]/20 to-[#E29E02]/20">
+    <section className="py-20 px-6 md:px-12 lg:px-20 bg-gradient-to-r from-[#E29E02]/20 via-[#EA630B]/20 to-[#E29E02]/20" id="mygallery">
       <div className="max-w-7xl mx-auto text-center mb-12">
         <h2 className="text-4xl md:text-5xl font-extrabold text-[#E29E02] mb-4">Our Gallery</h2>
         <p className="text-[#EA630B] text-lg md:text-xl max-w-2xl mx-auto">

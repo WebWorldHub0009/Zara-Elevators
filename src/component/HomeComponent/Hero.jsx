@@ -23,6 +23,7 @@ import heroImg1 from "../../assets/images/hero/h1.jpg";
 import heroImg2 from "../../assets/images/hero/h2.jpg";
 import heroImg3 from "../../assets/images/hero/h3.jpg";
 import heroImg4 from "../../assets/images/hero/h4.jpg";
+import { Link } from "react-router-dom";
 
 export default function Hero() {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -131,18 +132,18 @@ export default function Hero() {
 
         {/* ✅ CTA Buttons */}
         <div className="mt-8 flex flex-wrap justify-center gap-4">
-          <a
-            href="#services"
+          <Link
+            to="/services"
             className="px-6 py-3 bg-[#E29E02] hover:bg-[#EA630B] rounded-full hover:text-white text-black font-franklin shadow-lg transition"
           >
             Explore Solutions
-          </a>
-          <a
-            href="#contact"
+          </Link>
+          <Link
+            to="/contact"
             className="px-6 py-3 bg-[#EA630B] hover:bg-[#E29E02] rounded-full hover:text-black text-white font-franklin shadow-lg transition"
           >
             Request Quote
-          </a>
+          </Link>
         </div>
       </div>
 

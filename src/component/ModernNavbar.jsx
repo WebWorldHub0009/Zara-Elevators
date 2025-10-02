@@ -59,10 +59,10 @@ const rightNavItems = [
 ];
 
 const COMPANY_INFO = {
-  udyam: "UDYAM-UP-02-0092776",
-  gst: "09KVLPK8565A1Z1",
-  email: "Info@liftiumelevators.in",
-  mobile: "+91 8273638195",
+  udyam: "UDYAM-UP-02-0002982",
+  gst: "09AMMPH5998N1ZX",
+  email: "zara.elevatorsmaintaintenance@gamil.com",
+  mobile: "+91 8279812942",
 };
 
 const socialLinks = {
@@ -147,9 +147,9 @@ const ModernNavbar = () => {
           
           {/* Mobile View */}
           <div className="flex w-full items-center justify-between md:hidden">
-            <FaBars onClick={toggleMenu} className="cursor-pointer text-xl text-[#E29E02]" />
+            <FaBars onClick={toggleMenu} className="cursor-pointer text-3xl text-[#E29E02]" />
             <Link to="/" className="ml-auto">
-              <img src={logo} alt="Liftium Logo" className="h-8 object-contain" />
+              <img src={logo} alt="Liftium Logo" className="h-15 pr-5 object-contain" />
             </Link>
           </div>
 
@@ -270,9 +270,9 @@ const ModernNavbar = () => {
                 className="w-64 h-full bg-white shadow-lg px-6 py-4 flex flex-col"
               >
                 <div className="flex justify-between items-center mb-3">
-                  <img src={logo} alt="Liftium" className="h-7" />
+                  <img src={logo} alt="Liftium" className="h-17" />
                   <FaTimes
-                    className="text-xl text-[#E29E02] cursor-pointer"
+                    className="text-xl text-[#E29E02] hover:text-[#EA630B] cursor-pointer"
                     onClick={toggleMenu}
                   />
                 </div>
@@ -286,7 +286,7 @@ const ModernNavbar = () => {
                           to={item.path}
                           className={`flex items-center gap-2 ${
                             pathname === item.path
-                              ? "font-semibold text-[#E29E02]"
+                              ? "font-semibold text-[#E29E02] hover:text-[#EA630B]"
                               : "text-[#E29E02]"
                           }`}
                           onClick={toggleMenu}
@@ -299,7 +299,7 @@ const ModernNavbar = () => {
                             animate={{ rotate: isServicesOpen ? 180 : 0 }}
                             transition={{ duration: 0.2 }}
                             onClick={() => setIsServicesOpen(!isServicesOpen)}
-                            className="cursor-pointer text-[#E29E02]"
+                            className="cursor-pointer text-[#E29E02] hover:text-[#EA630B]"
                           >
                             <FaAngleDown size={14} />
                           </motion.span>
