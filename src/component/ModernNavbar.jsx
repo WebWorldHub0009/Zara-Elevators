@@ -59,10 +59,10 @@ const rightNavItems = [
 ];
 
 const COMPANY_INFO = {
-  udyam: "UDYAM-UP-02-0092776",
-  gst: "09KVLPK8565A1Z1",
-  email: "Info@liftiumelevators.in",
-  mobile: "+91 8273638195",
+  udyam: "UDYAM-UP-02-0002982",
+  gst: "09AMMPH5998N1ZX",
+  email: "zara.elevatorsservices.com",
+  mobile: "+91 8279812942",
 };
 
 const socialLinks = {
@@ -147,9 +147,9 @@ const ModernNavbar = () => {
           
           {/* Mobile View */}
           <div className="flex w-full items-center justify-between md:hidden">
-            <FaBars onClick={toggleMenu} className="cursor-pointer text-xl text-[#E29E02]" />
+            <FaBars onClick={toggleMenu} className="cursor-pointer text-3xl text-[#E29E02]" />
             <Link to="/" className="ml-auto">
-              <img src={logo} alt="Liftium Logo" className="h-8 object-contain" />
+              <img src={logo} alt="zara Logo" className="h-14 object-contain" />
             </Link>
           </div>
 
@@ -212,7 +212,7 @@ const ModernNavbar = () => {
 
             {/* Logo Center */}
             <Link to="/" className="mx-6">
-              <img src={logo} alt="Liftium Logo" className="h-10 md:h-18 object-contain" />
+              <img src={logo} alt="Zara Logo" className="h-10 md:h-18 object-contain" />
             </Link>
 
             {/* Right Nav + Social */}
@@ -270,7 +270,7 @@ const ModernNavbar = () => {
                 className="w-64 h-full bg-white shadow-lg px-6 py-4 flex flex-col"
               >
                 <div className="flex justify-between items-center mb-3">
-                  <img src={logo} alt="Liftium" className="h-7" />
+                  <img src={logo} alt="Liftium" className="h-17" />
                   <FaTimes
                     className="text-xl text-[#E29E02] cursor-pointer"
                     onClick={toggleMenu}
