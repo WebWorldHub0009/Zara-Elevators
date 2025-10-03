@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-=======
 // src/components/FloatingButtons.jsx
->>>>>>> 7e26c9776badf5a1349378cc6251446abef4e784
 import React, { useState } from "react";
 import { FaPhoneAlt, FaWhatsapp, FaTimes, FaMailBulk } from "react-icons/fa";
 import { motion, AnimatePresence } from "framer-motion";
@@ -22,22 +19,14 @@ const FloatingButtons = () => {
             {/* Call Button */}
             <motion.a
               key="call"
-<<<<<<< HEAD
               href="tel:+918279812942"
-=======
-              href="tel:+8279812942"
->>>>>>> 7e26c9776badf5a1349378cc6251446abef4e784
               title="Call Us"
               initial={{ opacity: 0, y: 20, scale: 0 }}
               animate={{ opacity: 1, y: 0, scale: 1 }}
               exit={{ opacity: 0, y: 20, scale: 0 }}
               transition={{ duration: 0.3 }}
               className="w-14 h-14 flex items-center justify-center rounded-full
-<<<<<<< HEAD
                 bg-gradient-to-br from-[#E29E02] to-[#EA630B] text-white
-=======
-                bg-gradient-to-br from-[#1A609F] to-[#239554] text-white
->>>>>>> 7e26c9776badf5a1349378cc6251446abef4e784
                 shadow-2xl ring-2 ring-white/30 transition-transform duration-300
                 hover:scale-110 hover:rotate-6"
             >
@@ -56,11 +45,7 @@ const FloatingButtons = () => {
               exit={{ opacity: 0, y: 20, scale: 0 }}
               transition={{ duration: 0.3, delay: 0.1 }}
               className="w-14 h-14 flex items-center justify-center rounded-full
-<<<<<<< HEAD
                 bg-gradient-to-br from-[#E29E02] to-[#EA630B] text-white
-=======
-                bg-gradient-to-br from-[#9FDE01] to-[#239554] text-black
->>>>>>> 7e26c9776badf5a1349378cc6251446abef4e784
                 shadow-2xl ring-2 ring-white/30 transition-transform duration-300
                 hover:scale-110 hover:-rotate-6"
             >
@@ -73,25 +58,15 @@ const FloatingButtons = () => {
       {/* Main Toggle Button with Ripple Effect */}
       <div className="relative">
         {/* Animated Rings */}
-<<<<<<< HEAD
         <span className="absolute inset-0 rounded-full bg-[#E29E02] animate-ping-slow"></span>
         <span className="absolute inset-0 rounded-full bg-[#EA630B] animate-ping-slower"></span>
         <span className="absolute inset-0 rounded-full bg-[#E29E02]/70 animate-ping-slowest"></span>
-=======
-        <span className="absolute inset-0 rounded-full bg-[#1A609F] animate-ping-slow"></span>
-        <span className="absolute inset-0 rounded-full bg-[#239554] animate-ping-slower"></span>
-        <span className="absolute inset-0 rounded-full bg-[#9FDE01]/70 animate-ping-slowest"></span>
->>>>>>> 7e26c9776badf5a1349378cc6251446abef4e784
 
         <motion.button
           onClick={toggleButtons}
           whileTap={{ scale: 0.9 }}
           className="cursor-pointer relative w-14 h-14 md:w-16 md:h-16 rounded-full 
-<<<<<<< HEAD
             bg-gradient-to-br from-[#E29E02] to-[#EA630B]
-=======
-            bg-gradient-to-br from-[#1A609F] to-[#239554]
->>>>>>> 7e26c9776badf5a1349378cc6251446abef4e784
             flex items-center justify-center
             shadow-2xl overflow-hidden hover:scale-105 transition-all duration-300"
         >
