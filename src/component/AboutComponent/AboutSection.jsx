@@ -61,16 +61,17 @@ export default function AboutSection() {
           </div>
         </div>
 
-        {/* RIGHT: Single Full Image */}
-        <div className="lg:w-1/2 relative flex justify-end ">
-          <div className="w-[420px] h-[500px] md:h-[500px]  overflow-hidden shadow-2xl hover:scale-105 hover:shadow-3xl transition">
-            <img
-              src={about1}
-              alt="Zara Elevator"
-              className="w-full h-full object-cover "
-            />
-          </div>
-        </div>
+       {/* RIGHT: Single Full Image */}
+<div className="lg:w-1/2 w-full flex justify-center lg:justify-end mt-8 lg:mt-0">
+  <div className="w-[300px] sm:w-[350px] md:w-[420px] h-[350px] sm:h-[400px] md:h-[500px] overflow-hidden shadow-2xl hover:scale-105 hover:shadow-3xl transition">
+    <img
+      src={about1}
+      alt="Zara Elevator"
+      className="w-full h-full object-cover rounded-xl"
+    />
+  </div>
+</div>
+
       </div>
 
       {/* ICON CARDS BELOW */}
