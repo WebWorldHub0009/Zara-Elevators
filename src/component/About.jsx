@@ -11,7 +11,7 @@ function About() {
       <AboutHero/>
       <AboutSection/>
       <StatsSection/>
-      <TeamSection/>
+      {/* <TeamSection/> */}
       <MissionVision/>
     </div>
   )
