@@ -73,14 +73,14 @@ const services = [
 export default function ServicesSection() {
   return (
     <section
-      className="py-16 bg-gradient-to-b from-[#EA630B] to-[#E29E02] relative"
+      className="py-16 bg-gradient-to-b bg-white relative"
       id="services"
     >
       {/* Overlay */}
-      <div className="absolute inset-0 bg-[#EA630B]/10"></div>
+      <div className="absolute inset-0 bg-[#ffffff]"></div>
 
       <div className="relative max-w-6xl mx-auto px-4">
-        <h2 className="text-3xl font-bold text-center mb-12 text-[#ffffff]">
+        <h2 className="text-3xl font-bold text-center mb-12 text-[#EA630B]">
           Our Elevator Services
         </h2>
         <h2 className="text-3xl font-bold text-center mb-12 text-[#E29E02]">

@@ -194,14 +194,14 @@ export default function ServiceDetail() {
             <motion.button
               whileHover={{ scale: 1.1 }}
               onClick={() => navigate("/gallery")}
-              className="px-6 py-3 bg-[#EA630B] text-white font-semibold rounded-lg shadow-lg hover:bg-[#E29E02] hover:text-[#171512] transition transform hover:scale-105"
+              className="px-6 py-3 bg-[#EA630B] text-white font-semibold rounded-lg shadow-lg hover:bg-[#E29E02] hover:text-[#171512] transition cursor-pointer transform hover:scale-105"
             >
               Show Gallery
             </motion.button>
             <motion.button
               whileHover={{ scale: 1.1 }}
               onClick={() => navigate("/contact")}
-              className="px-6 py-3 bg-transparent border-2 border-white text-white font-semibold rounded-lg shadow-lg hover:bg-[#EA630B] hover:text-white transition transform hover:scale-105"
+              className="px-6 py-3 bg-transparent border-2 border-white text-white font-semibold rounded-lg shadow-lg hover:bg-[#EA630B] cursor-pointer hover:text-white transition transform hover:scale-105"
             >
               Contact Us
             </motion.button>
