@@ -75,7 +75,7 @@ export default function Hero() {
           />
         ))}
         {/* Overlay */}
-        <div className="absolute inset-0 bg-gradient-to-b white-500"></div>
+        <div className="absolute inset-0 bg-gradient-to-b bg-[#000000d0]"></div>
       </div>
 
       {/* ✅ Social Media (Desktop) */}

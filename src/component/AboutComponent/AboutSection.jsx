@@ -63,7 +63,7 @@ export default function AboutSection() {
 
         {/* RIGHT: Single Full Image */}
         <div className="lg:w-1/2 relative flex justify-end ">
-          <div className="w-[500px] h-[500px] md:h-[500px] mx-5 overflow-hidden shadow-2xl hover:scale-105 hover:shadow-3xl transition">
+          <div className="w-[420px] h-[500px] md:h-[500px]  overflow-hidden shadow-2xl hover:scale-105 hover:shadow-3xl transition">
             <img
               src={about1}
               alt="Zara Elevator"
