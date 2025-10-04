@@ -5,7 +5,7 @@ import { FaShieldAlt, FaRocket, FaCogs, FaStar } from "react-icons/fa";
 import { motion, useAnimation } from "framer-motion";
 
 // Image
-import about1 from "../../assets/images/pexels-shkrabaanthony-5816285.jpg";
+import about1 from "../../assets/images/businesswomen-thinking-about-new-strategy.jpg";
 
 export default function AboutSection() {
   const features = [
@@ -63,7 +63,7 @@ export default function AboutSection() {
 
         {/* RIGHT: Single Full Image */}
         <div className="lg:w-1/2 relative flex justify-end">
-          <div className="w-[500px] h-[500px] md:h-[500px] rounded-tl-[20%] rounded-br-[30%] overflow-hidden shadow-2xl hover:scale-105 hover:shadow-3xl transition">
+          <div className="w-[500px] h-[500px] md:h-[500px]  overflow-hidden shadow-2xl hover:scale-105 hover:shadow-3xl transition">
             <img
               src={about1}
               alt="Zara Elevator"

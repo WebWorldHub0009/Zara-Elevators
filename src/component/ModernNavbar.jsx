@@ -149,7 +149,7 @@ const ModernNavbar = () => {
           <div className="flex w-full items-center justify-between md:hidden">
             <FaBars onClick={toggleMenu} className="cursor-pointer text-3xl text-[#E29E02]" />
             <Link to="/" className="ml-auto">
-              <img src={logo} alt="zara Logo" className="h-14 object-contain" />
+              <img src={logo} alt="zara Logo" className="h-19 object-contain" />
             </Link>
           </div>
 
